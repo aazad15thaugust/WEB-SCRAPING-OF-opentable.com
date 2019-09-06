@@ -21,7 +21,7 @@ restaurent = opentable_soup.findAll('div',{'class': "_81940a74 b2f6d1a4"})
 
 for restro in  restaurent:
 
-	#print(restro.text)
+	print(restro.text)
 	
 	name = restro.findAll('h3',{'class': "edec43ac _2a03da4e"})[0].text
 	
