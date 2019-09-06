@@ -1,5 +1,6 @@
 # WEB-SCRAPING-of-londontable.com
 import requests
+
 from bs4 import BeautifulSoup
 
 url = 'https://www.opentable.com/start/?m=72'
