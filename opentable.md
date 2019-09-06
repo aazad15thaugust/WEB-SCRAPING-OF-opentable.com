@@ -1,5 +1,4 @@
 # WEB-SCRAPING-of-londontable.com
-londontable.com
 import requests
 from bs4 import BeautifulSoup
 
